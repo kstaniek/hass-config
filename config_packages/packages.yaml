@@ -1,0 +1,5 @@
+home_assistant: !include home-assistant/package.yaml
+# Ugly hack because integrations require `include_dir_merge_named` but
+# won't work from inside a nested package
+home_assistant_integrations: !include_dir_merge_named home-assistant/integrations
+

@@ -1,21 +1,28 @@
+# -----------------
+# General settings
+# -----------------
+# The configuration.yaml is only used to bootstrap the system
+# and contains some minimal, but vital, settings.
 
-# Loads default set of integrations. Do not remove.
-default_config:
+homeassistant:
+  legacy_templates: false
+  name: Home
+  latitude: !env_var SECRET_ZONE_HOME_LATITUDE
+  longitude: !env_var SECRET_ZONE_HOME_LONGITUDE
+  elevation: !env_var SECRET_ZONE_HOME_ELEVATION
+  unit_system: metric
+  time_zone: Europe/Warsaw
+  country: PL
 
-# Load frontend themes from the themes folder
-frontend:
-  themes: !include_dir_merge_named themes
+  external_url: !env_var SECRET_EXTERNAL_URL
+  internal_url: !env_var SECRET_INTERNAL_URL
 
-automation: !include automations.yaml
-script: !include scripts.yaml
-scene: !include scenes.yaml
+  media_dirs:
+    local: /media
 
-http:
-  ip_ban_enabled: true
-  login_attempts_threshold: 5
-  trusted_proxies:
-    - !env_var SECRET_TRUSTED_PROXIES_1
-    - 172.31.30.0/24
-  use_x_forwarded_for: True
+  # Load packages
+  packages: !include config_packages/packages.yaml
 
-zeroconf:
+  allowlist_external_dirs: !include whitelist_external_dirs.yaml
+
+

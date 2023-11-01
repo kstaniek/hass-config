@@ -1,0 +1,39 @@
+---
+# The recorder component is storing details in a database which
+# then are handled by the history component.
+#
+# https://www.home-assistant.io/components/recorder/
+#
+recorder:
+  db_url: !env_var SECRET_RECORDER_DB_URL
+
+  auto_purge: true
+  purge_keep_days: 14
+
+  include:
+    domains:
+      - alarm_control_panel
+      - automation
+      - binary_sensor
+      - climate
+      - cover
+      - device_tracker
+      - group
+      - input_boolean
+      - input_number
+      - input_select
+      - input_text
+      - light
+      - media_player
+      - person
+      - remote
+      - script
+      - sensor
+      - switch
+      - timer
+      - vacuum
+
+  exclude:
+    entities:
+      - sensor.date
+      - sensor.date_time

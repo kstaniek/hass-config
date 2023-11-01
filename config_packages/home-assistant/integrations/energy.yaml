@@ -1,0 +1,8 @@
+---
+# The Energy integration allow you to manage energy panels
+# Home Assistant Core and Home Assistant Container installations.
+#
+# https://www.home-assistant.io/integrations/backup/
+#
+
+energy:
