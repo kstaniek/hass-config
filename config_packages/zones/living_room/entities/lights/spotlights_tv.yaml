@@ -1,0 +1,17 @@
+---
+platform: group
+name: Spoty nad telewizorem
+unique_id: ampio_1e5f_a1-a12
+entities:
+  - light.ampio_1e5d_a1
+  - light.ampio_1e5d_a2
+  - light.ampio_1e5d_a3
+  - light.ampio_1e5d_a4
+  - light.ampio_1e5d_a5
+  - light.ampio_1e5d_a6
+  - light.ampio_1e5d_a7
+  - light.ampio_1e5d_a8
+  - light.ampio_1e5d_a9
+  - light.ampio_1e5d_a10
+  - light.ampio_1e5d_a11
+  - light.ampio_1e5d_a12

@@ -1,0 +1,13 @@
+light.ampio_1a1e_a1:
+  friendly_name: Komoda
+  icon: phu:pillar-spot-2
+light.spoty_nad_kanapa:
+  icon: phu:bulb-group-centura
+light.spoty_nad_telewizorem:
+  icon: phu:bulb-group-centura
+light.ampio_19c7_a7:
+  icon: phu:ceiling-square
+light.ampio_1879_rgbw1:
+  icon: phu:light-strip
+light.ampio_1ab3_rgbw1:
+  icon: phu:light-strip

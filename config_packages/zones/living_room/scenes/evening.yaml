@@ -1,0 +1,54 @@
+name: Wieczór w salonie
+entities:
+  light.ampio_1879_rgbw1:
+    supported_color_modes:
+    - rgbw
+    color_mode: rgbw
+    brightness:
+    hs_color:
+    - 29.647
+    - 100
+    rgb_color:
+    - 255
+    - 126
+    - 0
+    xy_color:
+    - 0.614
+    - 0.373
+    rgbw_color:
+    - 255
+    - 126
+    - 0
+    - 0
+    friendly_name: Living Room
+    supported_features: 0
+    state: 'on'
+  light.ampio_1ab3_rgbw1:
+    supported_color_modes:
+    - rgbw
+    color_mode: rgbw
+    brightness:
+    hs_color:
+    - 29.647
+    - 100
+    rgb_color:
+    - 255
+    - 126
+    - 0
+    xy_color:
+    - 0.614
+    - 0.373
+    rgbw_color:
+    - 255
+    - 126
+    - 0
+    - 0
+    friendly_name: Stairs
+    supported_features: 0
+    state: 'on'
+icon: mdi:weather-night
+metadata:
+  light.ampio_1879_rgbw1:
+    entity_only: true
+  light.ampio_1ab3_rgbw1:
+    entity_only: true

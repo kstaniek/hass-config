@@ -25,4 +25,4 @@ homeassistant:
 
   allowlist_external_dirs: !include whitelist_external_dirs.yaml
 
-
+usb:

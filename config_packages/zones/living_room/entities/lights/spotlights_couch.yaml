@@ -1,0 +1,13 @@
+---
+platform: group
+name: Spoty nad kanapą
+unique_id: ampio_1e5f_a11-a16
+entities:
+  - light.ampio_1e5f_a11
+  - light.ampio_1e5f_a12
+  - light.ampio_1e5f_a13
+  - light.ampio_1e5f_a14
+  - light.ampio_1e5f_a15
+  - light.ampio_1e5f_a16
+  
+  

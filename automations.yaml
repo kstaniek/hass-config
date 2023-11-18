@@ -1,1 +1,14 @@
-[]
+- id: '1699291181172'
+  alias: Nowa automatyzacja
+  description: ''
+  trigger: []
+  condition: []
+  action: []
+  mode: single
+- id: '1699291194275'
+  alias: Nowa automatyzacja
+  description: ''
+  trigger: []
+  condition: []
+  action: []
+  mode: single

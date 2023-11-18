@@ -1,0 +1,40 @@
+---
+id: 123123123443334
+name: Oglądanie TV
+entities:
+  light.ampio_1879_rgbw1:
+    supported_color_modes:
+    - rgbw
+    color_mode: rgbw
+    brightness:
+    hs_color:
+    - 29.412
+    - 100
+    rgb_color:
+    - 51
+    - 25
+    - 0
+    xy_color:
+    - 0.586
+    - 0.396
+    rgbw_color:
+    - 51
+    - 25
+    - 0
+    - 0
+    friendly_name: Living Room
+    supported_features: 0
+    state: 'on'
+  light.ampio_1a1e_a1:
+    supported_color_modes:
+    - onoff
+    color_mode:
+    device_class: light
+    friendly_name: Komoda
+    supported_features: 0
+    state: 'off'
+icon: mdi:television
+metadata:
+  light.ampio_1a1e_a1:
+    entity_only: true
+
